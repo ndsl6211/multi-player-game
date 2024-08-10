@@ -1,0 +1,29 @@
+{
+  "name": "@multi-player-game/client",
+  "packageManager": "yarn@4.4.0",
+  "scripts": {
+    "dev": "node -r tsconfig-paths/register -r ts-node/register src/index.ts"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "@types/eslint__js": "^8.42.3",
+    "@types/node": "^22.1.0",
+    "@types/qs": "^6",
+    "@types/uuid": "^10",
+    "@types/ws": "^8.5.12",
+    "eslint": "^9.9.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.0.0"
+  },
+  "dependencies": {
+    "@multi-player-game/common": "workspace:*",
+    "ws": "^8.18.0"
+  }
+}
